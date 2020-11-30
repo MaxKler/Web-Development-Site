@@ -8370,10 +8370,13 @@ body {
   .nav-link {
     color: #008500 !important;
     font-size: 15px; }
-  .modal-content__second {
-    width: 300px !important;
-    height: 200px !important;
-    border-radius: 10px; } }
+  .modal {
+    display: flex;
+    justify-content: center; }
+    .modal-content__second {
+      width: 300px !important;
+      height: 200px !important;
+      border-radius: 10px; } }
 
 .mainSection {
   height: 100vh;
